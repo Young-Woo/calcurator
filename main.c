@@ -1,4 +1,4 @@
-﻿/////
+/////
 #include <stdio.h>
  
 int add(int, int);
@@ -50,11 +50,14 @@ int sub(int a, int b)
 int multi(int a, int b)
 {
 	//TODO implementation
-	return 0;
+	return a * b;
 }
  
 int div(int a, int b)
 {
 	//TODO implementation
-	return 0;
+	if(b == 0)
+		return 0;
+
+	return a / b;
 }

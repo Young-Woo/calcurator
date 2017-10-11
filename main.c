@@ -1,4 +1,4 @@
-﻿/////
+/////
 #include <stdio.h>
  
 int add(int, int);
@@ -38,23 +38,26 @@ int main(int argc, char* argv[])
 int add(int a, int b)
 {
 	//TODO implementation
-	return 0;
+	return a + b;
 }
  
 int sub(int a, int b)
 {
 	//TODO implementation
-	return 0;
+	return a - b;
 }
  
 int multi(int a, int b)
 {
 	//TODO implementation
-	return 0;
+	return a * b;
 }
  
 int div(int a, int b)
 {
 	//TODO implementation
-	return 0;
+	if(b == 0)
+		return 0;
+
+	return a / b;
 }

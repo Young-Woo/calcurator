@@ -37,12 +37,10 @@ int main(int argc, char* argv[])
  
 int add(int a, int b)
 {
-sdgsdgd
-	//qsdflksldkjfklsd
-	return a + b;
-230930230
+	//TODO implementation 555
+	return a + b;	// 요즘 누가 이렇게 짬
 }
- sdsggdsgd
+ 
 int sub(int a, int b)
 {
 	//TODO implementation
